@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    background-image: url('path/to/your/image.jpg'); /* مسیر تصویر پس‌زمینه */
+    background-size: cover; /* تصویر به طور کامل پوشش داده شود */
+    background-position: center; /* تصویر در مرکز قرار گیرد */
+    background-repeat: no-repeat; /* تصویر تکرار نشود */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+}
+
+input:focus, button:focus {
+    outline: none;
+    border-color: #ff0;
+}
+
+button {
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#password-result, #encryption-result, #console-output {
+    margin-top: 10px;
+}
+
+.security-alert {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    z-index: 9999;
+    display: block;
+    opacity: 0.9;
+}
+
+canvas {
+    margin-top: 20px;
+    background-color: #222;
+}
+
+h1, h3 {
+    color: chartreuse;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://uploadkon.ir/uploads/891915_25Jowhareh-galleries-3-poster-45773b6b-6408-46c3-b077-f0cb14cc3491.jpeg'); /* مسیر تصویر پس‌زمینه */
+    background-size: cover; /* تصویر به طور کامل پوشش داده شود */
+    background-position: center; /* تصویر در مرکز قرار گیرد */
+    background-repeat: no-repeat; /* تصویر تکرار نشود */
+    color: white;
+    height: 100vh; /* ارتفاع صفحه به اندازه کل صفحه نمایش */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5); /* پس‌زمینه نیمه شفاف برای خوانایی متن */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+a{
+    text-align: left;
+  }
